@@ -17,7 +17,7 @@ How can predictive maintenance and production optimization analytics help Strath
 
 | Resource | Link |
 |---|---|
-| **Live Interactive Dashboard** | [Open WellGuard Dashboard](https://data-titans-wellguard.streamlit.app/) |
+| **Live Interactive Dashboard** | [Open WellGuard Dashboard](https://data-titans-wellguard-elnaz.streamlit.app/) |
 | **Five-Minute Demonstration Video** | [Watch Video](https://drive.google.com/file/d/1k9JjCHW6yomQqg_amaE4EvXxowXeUAj9/view) |
 | **Final Competition Presentation** | [View Presentation](https://docs.google.com/presentation/d/1iyn9YzzsCQj7LIBIeJg3cTDimuVDbJBs/edit) |
 
