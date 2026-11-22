@@ -1,0 +1,212 @@
+{
+  "test_positive_rate": 0.04495128432240921,
+  "model_ap": 0.1636889203355008,
+  "model_roc_auc": 0.8054624180076502,
+  "past_failure_ap": 0.07692528410017829,
+  "recency_baseline_ap": 0.10298855204697838,
+  "recency_baseline_roc_auc": 0.7242529002134686,
+  "downtime_ap": 0.04569427612620836,
+  "train_well_weeks": 48865,
+  "val_well_weeks": 11149,
+  "test_well_weeks": 22580,
+  "train_positive_well_weeks": 2360,
+  "val_positive_well_weeks": 524,
+  "test_positive_well_weeks": 1015,
+  "model_best_iteration": 72,
+  "model_top25_well_week_precision": 0.24222222222222223,
+  "model_top25_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 116,
+    "event_recall": 0.18040435458786935
+  },
+  "baseline_top25_well_week_precision": 0.13333333333333333,
+  "baseline_top25_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 43,
+    "event_recall": 0.06687402799377916
+  },
+  "recency_top25_well_week_precision": 0.14666666666666667,
+  "recency_top25_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 75,
+    "event_recall": 0.1166407465007776
+  },
+  "model_top50_well_week_precision": 0.2088888888888889,
+  "model_top50_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 180,
+    "event_recall": 0.27993779160186627
+  },
+  "baseline_top50_well_week_precision": 0.11777777777777777,
+  "baseline_top50_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 82,
+    "event_recall": 0.12752721617418353
+  },
+  "recency_top50_well_week_precision": 0.1288888888888889,
+  "recency_top50_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 114,
+    "event_recall": 0.17729393468118196
+  },
+  "model_top100_well_week_precision": 0.18333333333333332,
+  "model_top100_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 289,
+    "event_recall": 0.4494556765163297
+  },
+  "baseline_top100_well_week_precision": 0.1111111111111111,
+  "baseline_top100_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 143,
+    "event_recall": 0.2223950233281493
+  },
+  "recency_top100_well_week_precision": 0.12666666666666668,
+  "recency_top100_event_coverage": {
+    "eligible_events": 643,
+    "caught_events": 188,
+    "event_recall": 0.29237947122861585
+  },
+  "comparison": {
+    "relative_risk_score": {
+      "average_precision": 0.1636889203355008,
+      "event_coverage": {
+        "25": {
+          "eligible_events": 643,
+          "caught_events": 116,
+          "event_recall": 0.18040435458786935
+        },
+        "50": {
+          "eligible_events": 643,
+          "caught_events": 180,
+          "event_recall": 0.27993779160186627
+        },
+        "100": {
+          "eligible_events": 643,
+          "caught_events": 289,
+          "event_recall": 0.4494556765163297
+        }
+      }
+    },
+    "recency_baseline_score": {
+      "average_precision": 0.10298855204697838,
+      "event_coverage": {
+        "25": {
+          "eligible_events": 643,
+          "caught_events": 75,
+          "event_recall": 0.1166407465007776
+        },
+        "50": {
+          "eligible_events": 643,
+          "caught_events": 114,
+          "event_recall": 0.17729393468118196
+        },
+        "100": {
+          "eligible_events": 643,
+          "caught_events": 188,
+          "event_recall": 0.29237947122861585
+        }
+      }
+    },
+    "operating_only": {
+      "average_precision": 0.14758153454965822,
+      "event_coverage": {
+        "25": {
+          "eligible_events": 643,
+          "caught_events": 111,
+          "event_recall": 0.17262830482115085
+        },
+        "50": {
+          "eligible_events": 643,
+          "caught_events": 172,
+          "event_recall": 0.26749611197511663
+        },
+        "100": {
+          "eligible_events": 643,
+          "caught_events": 267,
+          "event_recall": 0.4152410575427683
+        }
+      }
+    },
+    "seven_day_delayed_inputs": {
+      "average_precision": 0.1331665234827222,
+      "event_coverage": {
+        "25": {
+          "eligible_events": 643,
+          "caught_events": 66,
+          "event_recall": 0.1026438569206843
+        },
+        "50": {
+          "eligible_events": 643,
+          "caught_events": 133,
+          "event_recall": 0.20684292379471228
+        },
+        "100": {
+          "eligible_events": 643,
+          "caught_events": 223,
+          "event_recall": 0.3468118195956454
+        }
+      }
+    },
+    "delayed_recency_baseline": {
+      "average_precision": 0.1030846589978371,
+      "event_coverage": {
+        "25": {
+          "eligible_events": 643,
+          "caught_events": 75,
+          "event_recall": 0.1166407465007776
+        },
+        "50": {
+          "eligible_events": 643,
+          "caught_events": 114,
+          "event_recall": 0.17729393468118196
+        },
+        "100": {
+          "eligible_events": 643,
+          "caught_events": 188,
+          "event_recall": 0.29237947122861585
+        }
+      }
+    },
+    "downtime_baseline": {
+      "average_precision": 0.04569427612620836,
+      "event_coverage": {
+        "25": {
+          "eligible_events": 643,
+          "caught_events": 3,
+          "event_recall": 0.004665629860031105
+        },
+        "50": {
+          "eligible_events": 643,
+          "caught_events": 12,
+          "event_recall": 0.01866251944012442
+        },
+        "100": {
+          "eligible_events": 643,
+          "caught_events": 21,
+          "event_recall": 0.03265940902021773
+        }
+      }
+    },
+    "production_loss_baseline": {
+      "average_precision": 0.06729411089219056,
+      "event_coverage": {
+        "25": {
+          "eligible_events": 643,
+          "caught_events": 29,
+          "event_recall": 0.04510108864696734
+        },
+        "50": {
+          "eligible_events": 643,
+          "caught_events": 60,
+          "event_recall": 0.09331259720062209
+        },
+        "100": {
+          "eligible_events": 643,
+          "caught_events": 122,
+          "event_recall": 0.18973561430793157
+        }
+      }
+    }
+  }
+}

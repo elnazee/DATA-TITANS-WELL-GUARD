@@ -1,0 +1,170 @@
+{
+  "validation_type": "Retrospective, test-explored policy, NOT independent policy validation",
+  "holdout_observations": 22580,
+  "test_weeks": 18,
+  "test_positive_rate": 0.04495128432240921,
+  "model_ap": 0.1636889203355008,
+  "recency_baseline_ap": 0.10298855204697838,
+  "recency_baseline_roc_auc": 0.7242529002134686,
+  "event_denominator": 643,
+  "policies": {
+    "model_standard_top25": {
+      "eligible_events": 643,
+      "caught_events": 116,
+      "event_recall": 0.18040435458786935,
+      "median_earliest_lead_days": 4.5,
+      "slots": 450,
+      "unique_wells": 186,
+      "positive_well_week_precision": 0.24222222222222223
+    },
+    "continuous_recency_top25": {
+      "eligible_events": 643,
+      "caught_events": 75,
+      "event_recall": 0.1166407465007776,
+      "median_earliest_lead_days": 7.0,
+      "slots": 450,
+      "unique_wells": 323,
+      "positive_well_week_precision": 0.14666666666666667
+    },
+    "model_1w_cooldown_top25": {
+      "eligible_events": 643,
+      "caught_events": 142,
+      "event_recall": 0.2208398133748056,
+      "median_earliest_lead_days": 4.0,
+      "slots": 450,
+      "unique_wells": 244,
+      "positive_well_week_precision": 0.27111111111111114
+    },
+    "model_2w_cooldown_top25": {
+      "eligible_events": 643,
+      "caught_events": 141,
+      "event_recall": 0.2192846034214619,
+      "median_earliest_lead_days": 4.0,
+      "slots": 450,
+      "unique_wells": 265,
+      "positive_well_week_precision": 0.27111111111111114
+    },
+    "model_standard_top50": {
+      "eligible_events": 643,
+      "caught_events": 180,
+      "event_recall": 0.27993779160186627,
+      "median_earliest_lead_days": 5.0,
+      "slots": 900,
+      "unique_wells": 296,
+      "positive_well_week_precision": 0.2088888888888889
+    },
+    "continuous_recency_top50": {
+      "eligible_events": 643,
+      "caught_events": 114,
+      "event_recall": 0.17729393468118196,
+      "median_earliest_lead_days": 8.0,
+      "slots": 900,
+      "unique_wells": 393,
+      "positive_well_week_precision": 0.1288888888888889
+    },
+    "model_1w_cooldown_top50": {
+      "eligible_events": 643,
+      "caught_events": 222,
+      "event_recall": 0.3452566096423017,
+      "median_earliest_lead_days": 5.0,
+      "slots": 900,
+      "unique_wells": 351,
+      "positive_well_week_precision": 0.21222222222222223
+    },
+    "model_2w_cooldown_top50": {
+      "eligible_events": 643,
+      "caught_events": 224,
+      "event_recall": 0.3483670295489891,
+      "median_earliest_lead_days": 5.0,
+      "slots": 900,
+      "unique_wells": 390,
+      "positive_well_week_precision": 0.21555555555555556
+    },
+    "model_standard_top100": {
+      "eligible_events": 643,
+      "caught_events": 289,
+      "event_recall": 0.4494556765163297,
+      "median_earliest_lead_days": 8.0,
+      "slots": 1800,
+      "unique_wells": 399,
+      "positive_well_week_precision": 0.18333333333333332
+    },
+    "continuous_recency_top100": {
+      "eligible_events": 643,
+      "caught_events": 188,
+      "event_recall": 0.29237947122861585,
+      "median_earliest_lead_days": 9.0,
+      "slots": 1800,
+      "unique_wells": 418,
+      "positive_well_week_precision": 0.12666666666666668
+    },
+    "model_1w_cooldown_top100": {
+      "eligible_events": 643,
+      "caught_events": 352,
+      "event_recall": 0.5474339035769828,
+      "median_earliest_lead_days": 6.0,
+      "slots": 1800,
+      "unique_wells": 508,
+      "positive_well_week_precision": 0.17277777777777778
+    },
+    "model_2w_cooldown_top100": {
+      "eligible_events": 643,
+      "caught_events": 328,
+      "event_recall": 0.5101088646967341,
+      "median_earliest_lead_days": 6.0,
+      "slots": 1800,
+      "unique_wells": 575,
+      "positive_well_week_precision": 0.16055555555555556
+    }
+  },
+  "month_stability": {
+    "2026-06": {
+      "observations": 4990,
+      "positive_rate": 0.038877755511022044,
+      "model_ap": 0.16001158846046917,
+      "baseline_ap": 0.0888083164715956
+    },
+    "2026-07": {
+      "observations": 5011,
+      "positive_rate": 0.05268409499101975,
+      "model_ap": 0.19783943435475343,
+      "baseline_ap": 0.12134164621971141
+    },
+    "2026-08": {
+      "observations": 6274,
+      "positive_rate": 0.04415046222505579,
+      "model_ap": 0.15351022927345973,
+      "baseline_ap": 0.1030893944477077
+    },
+    "2026-09": {
+      "observations": 5026,
+      "positive_rate": 0.043772383605252686,
+      "model_ap": 0.1802904829561331,
+      "baseline_ap": 0.10855975225182973
+    },
+    "2026-10": {
+      "observations": 1279,
+      "positive_rate": 0.04691164972634871,
+      "model_ap": 0.19496502854430672,
+      "baseline_ap": 0.0943460302098254
+    }
+  },
+  "week_cluster_ap_difference_sensitivity": {
+    "point_difference": 0.06070036828852243,
+    "replicates": 750,
+    "percentile_95_interval": [
+      0.04360994408569229,
+      0.0758974367578908
+    ],
+    "warning": "Reuses 18 test weeks; not independent wells or prospective confidence interval."
+  },
+  "top25_paired_event_recall_sensitivity": {
+    "point_difference": 0.06376360808709176,
+    "interval_95": [
+      0.04084883953581433,
+      0.08321947852502526
+    ],
+    "event_date_blocks": 10,
+    "interpretation": "Descriptive paired 14-day event-date block resampling. Repeated wells and a single historical period limit inference."
+  }
+}

@@ -1,0 +1,39 @@
+/* V9.1 single scrollable scientific narrative, dark WellGuard enterprise palette */
+.wgds-hero{
+ background:linear-gradient(116deg,#12323b 0%,#0a1d2b 51%,#07141f 100%);
+ border:1px solid #247e86;border-radius:10px;padding:24px 25px 20px;margin:10px 0 16px;
+ box-shadow:inset 0 1px 0 #ffffff16,0 5px 30px #00000026}
+.wgds-overline{color:#30d5d6;font-size:11px;letter-spacing:.15em;font-weight:850;margin-bottom:8px}
+.wgds-title{color:#f0fbff;font-weight:900;font-size:30px;line-height:1.2;letter-spacing:-.035em}
+.wgds-tagline{color:#bed5e2;font-size:13px;margin-top:9px;max-width:1000px;line-height:1.5}
+.wgds-path{display:block;color:#92e9e7;background:#071c25;border:1px solid #295260;
+ font-size:11px;font-weight:750;border-radius:6px;padding:11px 14px;margin-top:16px;line-height:1.55}
+.wgds-section{display:flex;align-items:center;gap:15px;margin:30px 0 15px;
+ background:linear-gradient(90deg,#0c303a 0%,#0c202e 62%,#071823 100%);
+ border:1px solid #2d7282;border-radius:9px;padding:14px 18px}
+.wgds-number{background:linear-gradient(145deg,#23d5d1,#117e88);border-radius:7px;
+ min-width:46px;height:43px;display:flex;align-items:center;justify-content:center;
+ color:#03181d;font-size:22px;font-weight:900;line-height:1}
+.wgds-section-title{color:#f0fbff;font-size:23px;font-weight:880;line-height:1.2}
+.wgds-section-sub{color:#aed0dc;font-size:12px;margin-top:4px}
+.wgds-card{background:linear-gradient(142deg,#133442 0%,#0b2431 55%,#0a1c28 100%);
+ border:1px solid #35647a;border-radius:9px;padding:16px 15px 15px;
+ min-height:119px;box-shadow:inset 0 1px 0 #ffffff13;margin:3px 0 8px}
+.wgds-label{color:#c7dce6;font-size:12px;font-weight:730;line-height:1.25}
+.wgds-value{font-size:29px;font-weight:900;letter-spacing:-.025em;margin-top:10px;line-height:1.05}
+.wgds-detail{color:#92b5c5;font-size:11px;line-height:1.5;margin-top:7px}
+.wgds-subhead{font-size:15px;color:#eaf9ff;font-weight:850;margin:12px 0 9px;border-left:3px solid #24d5d1;padding-left:10px}
+.wgds-below{margin:-3px 0 9px;padding-left:13px}
+.wgds-process{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+ background:#0d2531;border:1px solid #305c70;border-radius:9px;padding:15px 13px;
+ gap:10px;margin:12px 0 20px}
+.wgds-process span{border-radius:6px;border:1px solid #2f8088;background:#0b3741;
+ color:#cdf8f6;padding:10px 12px;font-size:12px;font-weight:760;flex:1;text-align:center;min-width:115px}
+.wgds-process b{color:#44dcd9;font-size:21px;line-height:1}
+.wgds-research{background:linear-gradient(100deg,#06313d,#0d2935 62%,#0b222d);border:1px solid #21adb5;
+ border-radius:9px;padding:16px 19px;margin:11px 0 17px}
+.wgds-research strong{color:#58e0e0;text-transform:uppercase;letter-spacing:.11em;font-size:11px}
+.wgds-research div{color:#effbff;font-weight:800;font-size:16px;line-height:1.48;margin-top:8px;max-width:1100px}
+.wgds-research small{display:block;color:#a9c9d7;font-size:12px;margin-top:11px}
+.wgds-actions{background:#0b3036;border-color:#167b7f}
+@media(max-width:1024px){.wgds-hero{padding:18px}.wgds-title{font-size:23px}.wgds-section-title{font-size:19px}.wgds-path{font-size:10px}.wgds-card{padding:12px}.wgds-value{font-size:23px}}

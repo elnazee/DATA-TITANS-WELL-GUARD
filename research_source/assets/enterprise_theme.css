@@ -1,0 +1,172 @@
+/* V7.3 theme: inspired by WellGuard V5/V6 enterprise shell; no synthetic data */
+:root{--wg-bg:#071017;--wg-sidebar:#0b1622;--wg-panel:#1d2833;--wg-grid:#344955;--wg-accent:#25cccc;--wg-text:#e6f3f9;--wg-muted:#90acbb}
+html,body,.stApp,[data-testid="stAppViewContainer"]{background:var(--wg-bg)!important;color:var(--wg-text)!important}
+[data-testid="stHeader"]{background:#071017cc!important;border-bottom:1px solid #20323c}
+[data-testid="stSidebar"]{background:var(--wg-sidebar)!important;border-right:1px solid #263d4a!important}
+[data-testid="stSidebar"] [data-testid="stVerticalBlock"]{gap:.55rem!important}
+[data-testid="stSidebar"] h2{color:#e5f7fb;font-size:1.05rem!important;letter-spacing:.14em}
+[data-testid="stSidebar"] [role="radiogroup"] label{margin:1px 0;border-radius:4px;padding:8px!important;border:1px solid transparent}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked){background:#143743;border-color:#256476!important}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked) p{color:#7de9e8!important;font-weight:750!important}
+[data-testid="stMainBlockContainer"]{max-width:1680px!important;padding-top:1.1rem!important;padding-bottom:2rem!important}
+.block-container{max-width:1680px!important;padding-left:2rem!important;padding-right:2rem!important}
+[data-testid="stMetric"]{background:var(--wg-panel)!important;border:1px solid var(--wg-grid)!important;border-radius:5px!important;padding:14px 18px!important;min-height:106px}
+[data-testid="stMetricLabel"]{color:#9bb9c9!important;font-size:11px!important;font-weight:700;letter-spacing:.025em;text-transform:uppercase}
+[data-testid="stMetricValue"]{color:#65d7e6!important;font-size:1.72rem!important;font-weight:750!important;letter-spacing:-.035em}
+[data-testid="stPlotlyChart"]{background:#192631!important;border:1px solid #304754!important;border-radius:5px!important;padding:8px!important}
+[data-testid="stDataFrame"]{border:1px solid #344a58!important;border-radius:4px!important}
+[data-testid="stDataFrame"] [data-testid="stDataFrameGlideDataEditor"]{background:#121c26!important}
+[data-testid="stSelectbox"],[data-testid="stTextInput"],[data-testid="stMultiSelect"],[data-testid="stSlider"]{margin-bottom:.4rem}
+button[kind="primary"]{background:#19c4c5!important;color:#04191d!important;font-weight:800!important;border-radius:4px!important}
+[data-testid="stAlert"]{border-radius:4px!important}
+h1{font-size:1.75rem!important;letter-spacing:-.04em!important;color:#e5f5ff!important}
+h2,h3{letter-spacing:-.025em;color:#e8f8ff!important}
+hr{border-color:#2c4350!important}
+.wg-enterprise-bar{background:#080d12;border-bottom:1px solid #2d4956;min-height:60px;padding:13px 18px;display:flex;gap:18px;align-items:center;justify-content:space-between;border-radius:3px 3px 0 0}
+.wg-logo-mark{font-size:25px;color:#23cdcd;line-height:1}
+.wg-logo{font-size:17px;font-weight:900;letter-spacing:.18em;color:#e8f8fc}
+.wg-logo em{font-style:normal;color:#4ed9e4}
+.wg-subbrand{color:#8faabb;font-size:9px;letter-spacing:.17em;margin-top:2px}
+.wg-brand-row{display:flex;align-items:center;gap:11px}
+.wg-product{border-left:1px solid #355361;padding-left:17px;color:#c2dae3;text-transform:uppercase;letter-spacing:.13em;font-size:10px;font-weight:800}
+.wg-pill{border:1px solid #3a6e6b;color:#8be5d9;background:#112c2e;padding:7px 11px;font-size:10px;font-weight:800;letter-spacing:.07em;border-radius:3px}
+.wg-breadcrumb{background:#1a2731;padding:9px 17px;color:#c4d9e4;font-size:11px;border-radius:0 0 3px 3px;letter-spacing:.025em}
+.wg-overline{font-size:10px;font-weight:900;letter-spacing:.17em;color:#19ccca;margin-top:19px;margin-bottom:2px}
+.wg-work-title{font-size:29px;line-height:1.14;font-weight:860;letter-spacing:-.05em;color:#edfaff;margin:0 0 6px}
+.wg-work-sub{color:#a1b9c8;font-size:12px;margin:0 0 13px}
+.wg-privacy-note{font-size:11px;color:#c9dfeb;background:#132631;border-left:3px solid #e6bd70;padding:9px 12px;border-radius:3px;margin:11px 0 15px}
+@media(max-width:960px){.wg-product{display:none}.wg-enterprise-bar{gap:8px}.wg-logo{font-size:13px}.wg-pill{font-size:9px}.block-container{padding-left:1rem!important;padding-right:1rem!important}}
+
+/* V8 — executive first page: design match to user-provided Operations Command Center. */
+:root{--wg-cyan:#22d4d6;--wg-amber:#f4bd5f;--wg-deep:#061018;--wg-border:#284253;--wg-panel2:#0d1f2c}
+[data-testid="stMainBlockContainer"]{max-width:none!important;padding:12px 20px 35px 22px!important}
+[data-testid="stSidebar"]{min-width:225px!important;max-width:260px!important}
+[data-testid="stSidebarContent"]{padding:12px 12px 18px!important}
+[data-testid="stSidebar"] [data-testid="stWidgetLabel"] p{font-size:11px!important;color:#b5cbd8!important}
+[data-testid="stSidebar"] [role="radiogroup"] label{padding:7px 9px!important;border-radius:7px!important}
+[data-testid="stSidebar"] [role="radiogroup"] p{font-size:12px!important;letter-spacing:0!important}
+[data-testid="stSidebar"] [role="radiogroup"] label:has(input:checked){border-left:3px solid #1fe0e1!important;box-shadow:0 0 14px #18d5d51b inset!important}
+.wg-side-brand{display:flex;align-items:center;gap:10px;border-bottom:1px solid #1b3642;padding:3px 0 17px;margin:2px 0 16px}
+.wg-side-logo-mark{color:#2ff0ef;font-size:29px;font-weight:800;line-height:1}
+.wg-side-wordmark{color:#f0faff;font-size:16px;letter-spacing:.14em;font-weight:900;white-space:nowrap}
+.wg-side-wordmark b{color:#30dcde}
+.wg-side-sub{color:#94b8c6;font-size:8px;letter-spacing:.15em;margin-top:3px}
+.wg-side-section{color:#9ab6c7;font-size:11px;font-weight:700;padding:0 0 8px}
+.wg-command-header{padding:0 0 16px;min-height:70px}
+.wg-crumbline{display:flex;align-items:center;justify-content:space-between;gap:10px;background:#040a10;border-bottom:1px solid #1e3e4d;padding:6px 3px 11px;margin-bottom:15px}
+.wg-crumb{font-size:10px;font-weight:850;letter-spacing:.12em;color:#c6dce7}
+.wg-crumb b{color:#35e4e4}
+.wg-source-tag{border:1px solid #1d7a78;background:#0e2c2c;border-radius:6px;padding:5px 9px;color:#84e2dc;font-size:10px;font-weight:750;white-space:nowrap}
+.wg-title-row{display:flex;align-items:center;gap:16px}
+.wg-pump-mark{font-size:32px;color:#33dfe0;border-right:2px solid #15d1d2;padding-right:15px}
+.wg-title-text{font-size:29px!important;font-weight:900!important;letter-spacing:-.045em;line-height:1.05;color:#f5fafe!important}
+.wg-title-sub{font-size:12px;color:#a9c1cc;margin-top:7px}
+.wg-kpi{border:1px solid #315065;border-radius:8px;background:linear-gradient(145deg,#142c3b,#0b1c29 60%,#0b2330);box-shadow:inset 0 1px 0 #ffffff08;min-height:105px;padding:15px 16px 11px;margin:0 0 8px}
+.wg-kpi-top{display:flex;align-items:center;gap:10px;color:#d8e9f0;font-size:12px;font-weight:660}
+.wg-kpi-icon{font-size:22px;color:#4de0e1}
+.wg-kpi-value{font-size:28px;color:#48d7ed;font-weight:880;letter-spacing:-.025em;margin:7px 0 0}
+.wg-kpi-amber .wg-kpi-value,.wg-kpi-amber .wg-kpi-icon{color:#ffd075}
+.wg-kpi-foot{color:#83a9ba;font-size:10px;margin-top:4px;line-height:1.35}
+.wg-insights{border:1px solid #305064;background:linear-gradient(90deg,#0e2432,#0b1d2b);border-radius:8px;display:grid;grid-template-columns:1fr 1fr 1fr;margin:1px 0 17px;min-height:70px}
+.wg-insight{padding:12px 16px;border-right:1px solid #2f5365;min-width:0}
+.wg-insight:last-child{border:0}
+.wg-insight-label{color:#cadde8;font-size:11px;font-weight:700}
+.wg-insight-value{color:#55dce8;font-size:21px;font-weight:850;margin-top:4px;line-height:1.15}
+.wg-insight-badge{color:#bbced8;font-size:10px;margin-top:4px;line-height:1.2}
+.wg-section-head{color:#e9f7fb;font-size:14px;font-weight:850;display:flex;align-items:center;gap:8px;margin:0;padding:0 0 6px}
+.wg-section-head span{font-size:17px;color:#3fe1e2}
+.wg-chart-hint{color:#9ebdcb;font-size:10px;margin-bottom:5px}
+.wg-action-panel{background:linear-gradient(130deg,#063b45,#08242e 65%,#0b2330);border:1px solid #19babb;border-radius:8px;padding:16px 17px 12px;min-height:140px;margin:0 0 12px}
+.wg-action-copy{font-size:11px;color:#c6dee7;line-height:1.5;margin:6px 0 9px}
+.wg-action-chain{display:flex;gap:6px;flex-wrap:wrap;color:#80edec;font-size:10px;font-weight:750}
+.wg-action-chain span{background:#102e3b;border:1px solid #315563;padding:5px 7px;border-radius:5px}
+.wg-priority-wrap{background:linear-gradient(140deg,#112633,#081823);border:1px solid #315065;border-radius:8px;padding:13px 13px 9px}
+.wg-panel-subtitle{color:#9fb9c7;font-size:10px;margin-top:-2px;margin-bottom:9px}
+.wg-priority-scroller{max-height:350px;overflow:auto}
+.wg-priority-table{border-collapse:collapse;width:100%;font-size:11px;table-layout:fixed;color:#d6e9f2}
+.wg-priority-table th{background:#1c3342;color:#c6dce7;font-size:10px;text-align:left;padding:8px 7px;font-weight:730;position:sticky;top:0}
+.wg-priority-table td{padding:7px 7px;border-bottom:1px solid #1d3544;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wg-priority-table tr:nth-child(even) td{background:#071521a6}
+.wg-priority-table tbody tr:hover td{background:#163e4b}
+.wg-well-link{color:#e0f7ff;text-decoration:none;font-weight:720}
+.wg-well-link:hover{color:#32eff0;text-decoration:underline}
+.wg-tier{display:inline-block;border-radius:4px;padding:3px 7px;font-size:10px;font-weight:750;background:#243b4b;color:#a6e3ea}
+.wg-tier.high{background:#662527;color:#ffd3d1;border:1px solid #a83a3a}
+.wg-tier.review{background:#60441e;color:#ffe4a8;border:1px solid #8c6831}
+.wg-tier.loss{background:#1b4050;color:#b2e6ef;border:1px solid #2e6b84}
+.wg-table-action{border:1px solid #2c9ca0;border-radius:5px;color:#b3f3f3;text-decoration:none;padding:4px 6px;font-weight:700;font-size:10px}
+.wg-table-action:hover{background:#105060;color:white}
+.wg-event-table{width:100%;border-collapse:collapse;font-size:10px;color:#c5dce8}
+.wg-event-table td,.wg-event-table th{padding:8px 6px;text-align:left;border-bottom:1px solid #203847;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.wg-event-table th{background:#1b3443;font-size:10px}
+.wg-muted-msg{color:#a5bfcc;font-size:11px;line-height:1.5}
+.wg-private-notice{background:#182c31;color:#d5d2bc;border-left:3px solid #f0bf63;font-size:10px;line-height:1.45;padding:8px 11px;margin:1px 0 12px;border-radius:5px}
+.wg-mini-filter{color:#9ab3c1;font-size:10px}
+.wg-lower-tag{font-size:10px;color:#7fa7b9;margin-top:10px}
+/* Native Plotly cards keep zoom, selection and data hover functional. */
+[data-testid="stPlotlyChart"]{background:#0a1c29!important;border:1px solid #315065!important;border-radius:7px!important;padding:3px!important}
+[data-testid="stPlotlyChart"] iframe{border-radius:7px!important}
+[data-testid="stHorizontalBlock"]{gap:.65rem!important}
+[data-testid="stVerticalBlock"]{gap:.5rem!important}
+@media(max-width:1050px){.wg-kpi{padding:12px}.wg-kpi-value{font-size:21px}.wg-insight{padding:8px}.wg-insight-value{font-size:17px}.wg-title-text{font-size:23px!important}}
+
+/* V8.3 — three insight cells; selector beside historical recall. */
+.wg-insight-panel{background:linear-gradient(90deg,#0e2432,#0b1d2b);border:1px solid #305064;
+ border-radius:8px;min-height:103px;padding:11px 14px;margin:0 0 12px;display:flex;flex-direction:column;justify-content:center}
+.wg-insight-panel .wg-insight-label{font-size:11px;font-weight:750;color:#cadde8}
+.wg-insight-panel .wg-insight-value{font-size:22px;font-weight:850;color:#55dce8;margin-top:5px}
+.wg-insight-panel .wg-insight-badge{font-size:10px;color:#a9c2ce;margin-top:5px;line-height:1.35}
+.wg-recall-panel{padding:10px 10px 10px 12px}
+
+/* V8.4 geographic intelligence page — designed to complement, not repeat, Executive Overview */
+.wg-fleet-title{display:flex;align-items:center;gap:15px;margin:8px 0 18px}
+.wg-fleet-pin{color:#24eeee;font-size:34px;border-right:2px solid #1bd8d5;padding:0 16px 0 4px;line-height:1.5}
+.wg-fleet-kpi{min-height:104px;background:linear-gradient(120deg,#0e2937,#081c29)!important;border-color:#286277!important}
+.wg-fleet-kpi .wg-kpi-value{font-size:25px}
+.wg-fleet-toolbar-label{font-weight:800;font-size:12px;color:#e5f4f7;letter-spacing:.02em;margin:6px 0}
+.wg-fleet-toolbar-label span{font-weight:500;color:#8cb3c0;font-size:11px;margin-left:15px}
+.wg-fleet-section-title{background:linear-gradient(105deg,#102d3b,#0a1c2b);border:1px solid #285166;border-radius:7px 7px 0 0;color:#e4f9fb;font-size:13px;font-weight:800;padding:10px 12px;margin-top:5px}
+.wg-fleet-well-header{background:linear-gradient(105deg,#102f40,#0d2533);border:1px solid #2c6676;border-radius:0;padding:13px 13px 10px}
+.wg-fleet-well-id{font-weight:850;letter-spacing:.015em;color:#58eff0;font-size:22px;overflow-wrap:anywhere}
+.wg-fleet-well-meta{color:#b4ced9;font-size:11px;margin-top:6px}
+.wg-fleet-well-tier{display:inline-block;border:1px solid #3c8f92;color:#7fe6d8;background:#0b3738;border-radius:5px;padding:5px 8px;font-size:11px;font-weight:800;margin-top:10px}
+.wg-fleet-record{display:flex;justify-content:space-between;gap:10px;background:#0d2432;border-bottom:1px solid #254152;padding:9px 12px;font-size:11px}
+.wg-fleet-record span{color:#93b7c5;flex:1}
+.wg-fleet-record strong{color:#e4f6fc;font-weight:700;text-align:right;flex:1.2;overflow-wrap:anywhere}
+.wg-fleet-legend{color:#a7c6d3;font-size:10px;background:#071723;border-radius:0 0 6px 6px;padding:9px 12px;border:1px solid #315065;border-top:0;line-height:1.45;margin-top:-8px}
+.wg-fleet-bottom-label{font-size:10px;color:#45d7dc;letter-spacing:.12em;font-weight:850;padding:20px 0 4px}
+@media(max-width:1200px){.wg-fleet-well-id{font-size:16px}.wg-fleet-record{font-size:10px}}
+
+
+/* V8.6 — Page 3 Failure Intelligence & Recorded Causes; design based on approved reference. */
+.wg-failure-heading{display:flex;align-items:center;gap:14px;border-bottom:1px solid #1b3b49;padding:3px 0 15px;margin:0 0 11px}
+.wg-failure-heading-icon{font-size:30px;line-height:1;color:#2bdfdf;border-right:2px solid #25e1e1;padding:2px 13px 2px 4px}
+.wg-failure-title{color:#edfafe;font-size:26px;line-height:1.13;font-weight:880;letter-spacing:-.035em}
+.wg-failure-sub{color:#adcad5;font-size:12px;margin-top:5px}
+.wg-failure-kpi{border:1px solid #276575;border-radius:8px;background:linear-gradient(115deg,#103544,#081e2b 75%);padding:12px 15px;min-height:108px;margin:4px 0 9px}
+.wg-failure-kpi-heading{display:flex;align-items:center;gap:10px;color:#e4f2f7;font-size:12px}
+.wg-failure-icon{color:#31e8e6;font-size:24px;font-weight:750}
+.wg-failure-kpi-value{font-size:27px;color:#4bdbe6;font-weight:880;letter-spacing:-.03em;margin:5px 0 3px}
+.wg-failure-kpi-foot{font-size:10px;color:#aec6cf;line-height:1.35}
+.wg-failure-section-cap{font-size:11px;font-weight:850;letter-spacing:.04em;color:#d6e9ef;margin:8px 0 6px}
+.wg-failure-reporting{background:linear-gradient(110deg,#0b2938,#0d2430);border:1px solid #267f89;border-radius:8px;padding:10px 13px;min-height:80px;color:#bcd7df;font-size:11px;line-height:1.48}
+.wg-failure-reporting b{color:#58e4e7;display:block;margin-bottom:3px;font-size:12px}
+.wg-failure-reporting strong{color:#69efeb}
+.wg-failure-panel-title{border:1px solid #246476;border-radius:8px 8px 0 0;border-bottom:0;background:linear-gradient(110deg,#0e2c39,#0b1e2b);color:#eefbff;font-size:13px;font-weight:850;padding:11px 12px;margin:8px 0 0}
+.wg-failure-panel-title:first-letter{color:#3be2e4}
+.wg-failure-panel-title + div[data-testid="stPlotlyChart"]{border-top:0!important;border-radius:0 0 8px 8px!important}
+.wg-repeat-box{border-bottom:1px solid #1d4454;background:#0b2531;padding:11px 14px;min-height:66px;display:flex;flex-direction:column;gap:3px}
+.wg-repeat-box:last-child{border-radius:0 0 8px 8px}
+.wg-repeat-box span{color:#b7ced7;font-size:10px}
+.wg-repeat-box strong{color:#e9ffff;font-size:20px;font-weight:850}
+.wg-repeat-box small{color:#e9c26c;font-size:10px}
+.wg-failure-event-box{background:#0c2937;border-left:3px solid #26d9d9;padding:9px 13px;display:flex;gap:4px;flex-direction:column;border-radius:4px;margin:6px 0}
+.wg-failure-event-box b{color:#55e9eb;font-size:13px}
+.wg-failure-event-box span{color:#b5cfd9;font-size:10px}
+.wg-early-state{font-size:12px;padding:8px 12px;background:#263139;border:1px solid #536372;color:#dce7f1;font-weight:750;border-radius:5px;margin:6px 0 9px}
+.wg-early-state.wg-flagged{background:#103b34;border-color:#27877a;color:#7df5d7}
+.wg-failure-table-head{margin-top:16px}
+.st-key-failure_analysis_period [role="radiogroup"]{gap:7px!important}
+.st-key-failure_analysis_period [role="radiogroup"] label{border:1px solid #315c69;background:#102638;border-radius:6px;padding:7px 13px!important}
+.st-key-failure_analysis_period [role="radiogroup"] label:has(input:checked){border-color:#26c9d2;background:#0c565f;color:#65eff0!important}
+@media(max-width:1180px){.wg-failure-title{font-size:21px}.wg-failure-kpi-value{font-size:22px}.wg-failure-kpi{padding:9px}}
